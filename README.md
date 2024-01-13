@@ -85,7 +85,7 @@ Redistribution and use of binary forms, with or without modification, are permit
 - Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
 - All advertising materials or publication mentioning features or use of this software must display the following acknowledgement: "This product includes software developed by the KDIS Research Group at the University of Córdoba (Spain) and its contributors." You can also refer to some of the available publications or cite the following reference:
 
-  _A. Ramírez, J.R. Romero, S. Ventura (2018). JCLEC-MO: JCLEC for multi-objective and many-objective optimization. Dept. of Computer Science and Numerical Analysis, University of Córdoba (Spain). DOI: (given by Zenodo)
+  _A. Ramírez, J.R. Romero, S. Ventura (2018). JCLEC-MO: JCLEC for multi-objective and many-objective optimization. Dept. of Computer Science and Numerical Analysis, University of Córdoba (Spain). DOI: (given by Zenodo)_
 
 - Neither the name of the University nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
 - Commercial use of this software or part of it is not allowed without specific prior written permission.
