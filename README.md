@@ -120,10 +120,6 @@ JCLEC-MO source code has been carefully documented using _Javadoc_ tags. In addi
 
 #### Configuration files
 
-The HTML code provided can be converted into Markdown format as follows:
-
-#### Configuration files
-
 JCLEC-MO requires a configuration file in XML format. This file should contain all the necessary elements to define an experiment, including the encoding, the genetic operators, the multi/many-objective approach (named *strategy*), and the evaluator of the MOP. Here, one configuration file for each algorithm is provided:
 
 - ε-MOEA + DTLZ1 [configuration file](https://www.uco.es/grupos/kdis/jclec-mo/v1/cfg/eMOEA-DTLZ1.xml)
