@@ -95,10 +95,10 @@ Redistribution and use of binary forms, with or without modification, are permit
 
 At present, JCLEC-MO is provided for download as:
 
-- A runnable [jar file](https://www.uco.es/grupos/kdis/jclec-mo/v1/code/jclec-mo.jar)
-- A binary [jar library](http://www.uco.es/grupos/kdis/jclec-mo/v1/code/jclec-mo-1.0.jar)
+- A runnable [jar file](/code/jclec-mo.jar)
+- A binary [jar library](/code/jclec-mo-1.0.jar)
 
-Source code is available at [GitHub](https://github.com/kdis-lab/jclec-mo).
+Source code is available at [GitHub](/code/).
 
 #### External dependencies
 
