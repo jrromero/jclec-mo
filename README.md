@@ -104,54 +104,54 @@ Source code is available at [GitHub](/code/).
 
 JCLEC-MO requires the following external libraries:
 
-- [JCLEC base](https://www.uco.es/grupos/kdis/jclec-mo/v1/libs/jclec4-base.jar) (v4.0+).
-- [datapro4j library core (v1.0+)](https://www.uco.es/grupos/kdis/jclec-mo/v1/libs/datapro4j-v1-core.jar), the [additional module](https://www.uco.es/grupos/kdis/jclec-mo/v1/libs/datapro4j-v1-r.jar) to access to R and [JRI](https://www.uco.es/grupos/kdis/jclec-mo/v1/libs/JRI.jar) (only for some ”reporters” and ”handlers”, please see the documentation section)
-- Apache Commons libraries: [collections](https://www.uco.es/grupos/kdis/jclec-mo/v1/libs/commons-collections-3.2.2.jar) (v3.2.2), [configuration](https://www.uco.es/grupos/kdis/jclec-mo/v1/libs/commons-configuration-1.10.jar) (v1.10+), [lang](https://www.uco.es/grupos/kdis/jclec-mo/v1/libs/commons-lang-2.6.jar) (v2.6), [logging](https://www.uco.es/grupos/kdis/jclec-mo/v1/libs/commons-logging-1.2.jar) (v1.2+).
-- [JUnit](https://www.uco.es/grupos/kdis/jclec-mo/v1/libs/junit-4.12.jar) (v4.12+) and [harmcrest-core](https://www.uco.es/grupos/kdis/jclec-mo/v1/libs/harmcrest-core-1.3.jar) (v1.3+) (only for test classes).
+- [JCLEC base](/libs/jclec4-base.jar) (v4.0+).
+- [datapro4j library core (v1.0+)](/libs/datapro4j-v1-core.jar), the [additional module](/libs/datapro4j-v1-r.jar) to access to R and [JRI](/libs/JRI.jar) (only for some ”reporters” and ”handlers”, please see the documentation section)
+- Apache Commons libraries: [collections](/libs/commons-collections-3.2.2.jar) (v3.2.2), [configuration](/libs/commons-configuration-1.10.jar) (v1.10+), [lang](/libs/commons-lang-2.6.jar) (v2.6), [logging](/libs/commons-logging-1.2.jar) (v1.2+).
+- [JUnit](/libs/junit-4.12.jar) (v4.12+) and [harmcrest-core](/libs/harmcrest-core-1.3.jar) (v1.3+) (only for test classes).
 
   
 ### Documentation
 
 JCLEC-MO source code has been carefully documented using _Javadoc_ tags. In addition, several documents can be consulted in order to know about the design of JCLEC-MO, as well to learn how to use both basic and advanced functionalities:
 
-- A complete guide to end-users can be downloaded [here](http://www.uco.es/grupos/kdis/jclec-mo/v1/docs/jclec-mo-1.0-user-guide.pdf).
-- The design specification can be downloaded [here](http://www.uco.es/grupos/kdis/jclec-mo/v1/docs/jclec-mo-1.0-design-specification.pdf).
-- The API can be browsed [here](http://www.uco.es/grupos/kdis/jclec-mo/v1/api/).
+- A complete guide to end-users can be downloaded [here](/docs/jclec-mo-1.0-user-guide.pdf).
+- The design specification can be downloaded [here](/docs/jclec-mo-1.0-design-specification.pdf).
+- The API can be browsed [here](/api/).
 
 #### Configuration files
 
 JCLEC-MO requires a configuration file in XML format. This file should contain all the necessary elements to define an experiment, including the encoding, the genetic operators, the multi/many-objective approach (named *strategy*), and the evaluator of the MOP. Here, one configuration file for each algorithm is provided:
 
-- ε-MOEA + DTLZ1 [configuration file](https://www.uco.es/grupos/kdis/jclec-mo/v1/cfg/eMOEA-DTLZ1.xml)
-- GrEA + DTLZ1 [configuration file](https://www.uco.es/grupos/kdis/jclec-mo/v1/cfg/GrEA-DTLZ1.xml)
-- HypE + DTLZ1 [configuration file](https://www.uco.es/grupos/kdis/jclec-mo/v1/cfg/HypE-DTLZ1.xml)
-- IBEA + DTLZ1 [configuration file](https://www.uco.es/grupos/kdis/jclec-mo/v1/cfg/IBEA-DTLZ1.xml)
-- MOCHC + ZDT5 [configuration file](https://www.uco.es/grupos/kdis/jclec-mo/v1/cfg/MOCHC-ZDT5.xml)
-- MOEA/D + DTLZ1 [configuration file](https://www.uco.es/grupos/kdis/jclec-mo/v1/cfg/MOEAD-DTLZ1.xml)
-- NSGA-II + DTLZ1 [configuration file](https://www.uco.es/grupos/kdis/jclec-mo/v1/cfg/NSGA2-DTLZ1.xml)
-- NSGA-III + DTLZ1 [configuration file](https://www.uco.es/grupos/kdis/jclec-mo/v1/cfg/NSGA3-DTLZ1.xml)
-- OMOPSO + DTLZ1 [configuration file](https://www.uco.es/grupos/kdis/jclec-mo/v1/cfg/OMOPSO-DTLZ1.xml)
-- PAES + DTLZ1 [configuration file](https://www.uco.es/grupos/kdis/jclec-mo/v1/cfg/PAES-DTLZ1.xml)
-- PAR + DTLZ1 [configuration file](https://www.uco.es/grupos/kdis/jclec-mo/v1/cfg/PAR-DTLZ1.xml)
-- RVEA + DTLZ1 [configuration file](https://www.uco.es/grupos/kdis/jclec-mo/v1/cfg/RVEA-DTLZ1.xml)
-- SMPSO + DTLZ1 [configuration file](https://www.uco.es/grupos/kdis/jclec-mo/v1/cfg/SMPSO-DTLZ1.xml)
-- SMSEMOA + DTLZ1 [configuration file](https://www.uco.es/grupos/kdis/jclec-mo/v1/cfg/SMSEMOA-DTLZ1.xml)
-- SPEA2 + DTLZ1 [configuration file](https://www.uco.es/grupos/kdis/jclec-mo/v1/cfg/SPEA2-DTLZ1.xml)
+- ε-MOEA + DTLZ1 [configuration file](/cfg/eMOEA-DTLZ1.xml)
+- GrEA + DTLZ1 [configuration file](/cfg/GrEA-DTLZ1.xml)
+- HypE + DTLZ1 [configuration file](/cfg/HypE-DTLZ1.xml)
+- IBEA + DTLZ1 [configuration file](/cfg/IBEA-DTLZ1.xml)
+- MOCHC + ZDT5 [configuration file](/cfg/MOCHC-ZDT5.xml)
+- MOEA/D + DTLZ1 [configuration file](/cfg/MOEAD-DTLZ1.xml)
+- NSGA-II + DTLZ1 [configuration file](/cfg/NSGA2-DTLZ1.xml)
+- NSGA-III + DTLZ1 [configuration file](/cfg/NSGA3-DTLZ1.xml)
+- OMOPSO + DTLZ1 [configuration file](/cfg/OMOPSO-DTLZ1.xml)
+- PAES + DTLZ1 [configuration file](/cfg/PAES-DTLZ1.xml)
+- PAR + DTLZ1 [configuration file](/cfg/PAR-DTLZ1.xml)
+- RVEA + DTLZ1 [configuration file](/cfg/RVEA-DTLZ1.xml)
+- SMPSO + DTLZ1 [configuration file](/cfg/SMPSO-DTLZ1.xml)
+- SMSEMOA + DTLZ1 [configuration file](/cfg/SMSEMOA-DTLZ1.xml)
+- SPEA2 + DTLZ1 [configuration file](/cfg/SPEA2-DTLZ1.xml)
 
 Next, additional configuration files are given to solve the rest of benchmarks included in JCLEC-MO, where NSGA-II is the chosen algorithm:
 
-- NSGA-II + Knapsack [configuration file](https://www.uco.es/grupos/kdis/jclec-mo/v1/cfg/NSGA2-Knapsack.xml) - [Problem instance 250.4](https://www.uco.es/grupos/kdis/jclec-mo/v1/cfg/knapsack.250.4)
-- NSGA-II + TSP [configuration file](https://www.uco.es/grupos/kdis/jclec-mo/v1/cfg/NSGA2-TSP.xml) - [Problem instance kroA100.tsp](https://www.uco.es/grupos/kdis/jclec-mo/v1/cfg/kroA100.tsp) - [Problem instance kroB100.tsp](https://www.uco.es/grupos/kdis/jclec-mo/v1/cfg/kroB100.tsp)
-- NSGA-II + ZDT [configuration file](https://www.uco.es/grupos/kdis/jclec-mo/v1/cfg/NSGA2-ZDT.xml)
-- NSGA-II + DTLZ [configuration file](https://www.uco.es/grupos/kdis/jclec-mo/v1/cfg/NSGA2-DTLZ.xml)
-- NSGA-II + Symbolic Regression [configuration file](https://www.uco.es/grupos/kdis/jclec-mo/v1/cfg/NSGA2-SymReg.xml)
+- NSGA-II + Knapsack [configuration file](/cfg/NSGA2-Knapsack.xml) - [Problem instance 250.4](/cfg/knapsack.250.4)
+- NSGA-II + TSP [configuration file](/cfg/NSGA2-TSP.xml) - [Problem instance kroA100.tsp](/cfg/kroA100.tsp) - [Problem instance kroB100.tsp](/cfg/kroB100.tsp)
+- NSGA-II + ZDT [configuration file](/cfg/NSGA2-ZDT.xml)
+- NSGA-II + DTLZ [configuration file](/cfg/NSGA2-DTLZ.xml)
+- NSGA-II + Symbolic Regression [configuration file](/cfg/NSGA2-SymReg.xml)
 
 The configuration files used as examples in the user guide are provided below. The classes required to code the TSP and the Knapsack problem are included in the source code (see distribution section):
 
-- Example1 [configuration file](https://www.uco.es/grupos/kdis/jclec-mo/v1/cfg/example1.xml)
-- Example2 [configuration file](https://www.uco.es/grupos/kdis/jclec-mo/v1/cfg/example2.xml)
-- Example3 [configuration file](https://www.uco.es/grupos/kdis/jclec-mo/v1/cfg/example3.xml)
-- Example4 [configuration file](https://www.uco.es/grupos/kdis/jclec-mo/v1/cfg/example4.xml)
+- Example1 [configuration file](/cfg/example1.xml)
+- Example2 [configuration file](/cfg/example2.xml)
+- Example3 [configuration file](/cfg/example3.xml)
+- Example4 [configuration file](/cfg/example4.xml)
 
 #### How to execute an experiment
 
@@ -182,4 +182,4 @@ Four algorithms are compared: GrEA, HypE, NSGA-III and SMPSO. The analytical pro
 6. Computing binary quality indicators using the reference PF (Iε, Iε+, GS, GD, IGD, ME)
 7. Applying the Kruskal-Wallis non-parametric test to reveal statistical differences w.r.t. HV and SPA
 
-Code, configuration files and outcomes (plots, CSV files and reports) can be downloaded from [here](https://www.uco.es/grupos/kdis/jclec-mo/v1/code/WRMCaseStudy.zip).
+Code, configuration files and outcomes (plots, CSV files and reports) can be downloaded from [here](/code/WRMCaseStudy.zip).
